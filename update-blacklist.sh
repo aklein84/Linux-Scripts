@@ -8,7 +8,7 @@
 	# iptables -I OUTPUT -m set --match-set blacklist2 src -j DROP
 	# iptables -I FORWARD -m set --match-set blacklist2 src -j DROP
 	
-# Relys on ipset, bc, iptables and pushover.sh
+# Relies on ipset, bc, iptables and pushover.sh
 
 # Create new set using command below 
 # ipset create <set name> hash:ip 
