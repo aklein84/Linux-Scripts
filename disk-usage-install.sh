@@ -2,7 +2,7 @@
 
 # Bash function to check for crontab entry, if not, decode disk usage script and add to crontab
 install_script() {
-  crontab -l | grep $0 > /dev/null
+  crontab -l | grep "disk-usage.sh" > /dev/null
   if [ $? -eq 1 ]; then
     echo "Adding cronjob"
     mkdir -p '/root/jobs/system'
