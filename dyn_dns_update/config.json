@@ -1,0 +1,18 @@
+{
+        "domain_settings": {
+                "update_url": "https://domains.google.com/nic/update",
+                "update_header_host": "domains.google.com"
+        },
+        "domains": {
+                "domain1": {
+                        "domain": "",
+                        "username": "",
+                        "password": ""
+                }
+        },
+        "pushover_settings": {
+                "key": "",
+                "app": "",
+                "api_url": "https://api.pushover.net/1/messages.json"
+        }
+}
